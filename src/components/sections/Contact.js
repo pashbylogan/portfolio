@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import emailjs from 'emailjs-com'
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -29,7 +30,27 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
+      const serviceId = process.env.EMAIL_SERVICE_ID;
+      const templateId = process.env.EMAIL_TEMPLATE_ID;
+      const userId = process.env.EMAIL_USER_ID;
+      var templateParams = {
+        from_email:formdata.email,
+        from_name:formdata.name,
+        message:formdata.message,
+        subject:formdata.subject,
+      }
+
+      emailjs.send(serviceId, templateId, templateParams, userId)
+        .then(response => console.log(response))
+        .then(error => console.log(error));
+
       setMessage("You message has been sent!!!");
+      setFormdata({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      })
     }
   };
 
