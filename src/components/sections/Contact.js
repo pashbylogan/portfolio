@@ -33,9 +33,6 @@ function Contact() {
       const serviceId = process.env.REACT_APP_EMAIL_SERVICE_ID;
       const templateId = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
       const userId = process.env.REACT_APP_EMAIL_USER_ID;
-      console.log(serviceId);
-      console.log(templateId);
-      console.log(userId);
       var templateParams = {
         from_email:formdata.email,
         from_name:formdata.name,
