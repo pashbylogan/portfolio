@@ -1,1 +1,1 @@
-web: npm start --prefix bolby
+web: npm start
