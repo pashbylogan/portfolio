@@ -78,7 +78,7 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <a href="https://drive.google.com/file/d/1hYARt8g3bqmXK7iwjZ8SnaPRjCigT2uh/view?usp=sharing" className="btn btn-default" target="_blank">
                       Download Resume
                     </a>
                   </div>
