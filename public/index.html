@@ -38,6 +38,12 @@
       media="all"
     />
     <title>React App</title>
+    <script>
+      var host = "www.loganpashby.com" || "logan.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:")){
+        window.location.protocol = "https";
+      }
+    </script>
   </head>
 
   <body>
