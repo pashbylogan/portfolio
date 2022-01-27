@@ -33,6 +33,9 @@ function Contact() {
       const serviceId = process.env.EMAIL_SERVICE_ID;
       const templateId = process.env.EMAIL_TEMPLATE_ID;
       const userId = process.env.EMAIL_USER_ID;
+      console.log(serviceId);
+      console.log(templateId);
+      console.log(userId);
       var templateParams = {
         from_email:formdata.email,
         from_name:formdata.name,
