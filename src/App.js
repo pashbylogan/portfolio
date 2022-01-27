@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import HomepageLight from "./pages/HomepageLight";
 import HomepageDark from "./pages/HomepageDark";
@@ -48,6 +48,7 @@ function App() {
         */
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
+        <Route render={() => <Redirect to="/" />} />
       </Switch>
     </BrowserRouter>
   );
