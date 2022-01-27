@@ -1,156 +1,68 @@
-# DevBlog
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-DevBlog is a fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. It comes ready to go and deploy (with ease) or can be edited and extended however you like. The blog is completely statically generated via GatsbyJS, comes with syntax highlighting (via PrismJS) out of the box, and has server-side rendering built-in, among other things.
+## Available Scripts
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devblog/).
+In the project directory, you can run:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
+### `yarn start`
 
-## Features
-* Fully responsive
-* Minimalistic
-* Customizable via a ```config.js``` file
-* Easy to deploy
-* Statically-generated via markdown files
-* Server-side rendering
-* Syntax highlighting via PrismJS
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Contents
-* [Setup and Configuration](#setup-and-configuration)
-  * [Setup](#setup)
-  * [Configuration](#configuration)
-* [Creating New Posts](#creating-new-posts)
-* [Deploying](#deploying)
-* [Changelog](#changelog)
-* [License](#license)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Setup and Configuration
+### `yarn test`
 
-### Setup
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### 1. Install Gatsby CLI
+### `yarn build`
 
-The first step is to get the GatsbyJS CLI installed locally. This can be accomplished by running the command ```npm install --global gatsby-cli```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### 2. Create a new Gatsby Site using this repo
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-When creating a new Gatsby site, the CLI allows you to specify a starter, in this case simply provide the URL for this repo. This can be accomplished by running the command ```gatsby new YOUR_BLOG_NAME https://github.com/RyanFitzgerald/devblog```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### 3. Edit or use the template as needed
+### `yarn eject`
 
-Now you that you are setup, you can simply use the blog or make edits as needed. For example, run ```gatsby develop``` to start up a hot-reloaded development environment available at localhost:8000 or run ```gatsby build``` to build an optimized production build. For a complete list of CLI commands for Gatsby, take a look at their [documentation](https://www.gatsbyjs.org/docs/).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### Alternative Setup
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Alternatively, if you wish to simply fork this repo or clone it, then you simply need to run ```npm install``` and then ```gatsby develop``` afterwards and you'll be up and running.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Configuration
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Basic configuration can be done via the ```config.js``` file in the root of the project repo. Through this file you can make edits to the primary color of the blog, add a blog author and description, and more. The defaults are as follows:
+## Learn More
 
-```javascript
-export default {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
-  primaryColor: '#3498db', // Required
-  showHeaderImage: true,
-  showShareButtons: true,
-  postsPerPage: 5, // Required
-  social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald'
-  }
-};
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-__Note:__ Any configuration option labelled as "Required" is needed for basic presentational purposes. Anything without the "Required" comment can be removed should you not want it used.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### Understanding the configuration variables
+### Code Splitting
 
-The configuration variables referenced above are used as follows:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-| Variable | Description of Use |
-|----------|--------------------|
-| title | The title of the blog. This is used for the page title primarily. |
-| author | The author of the blog. This is used for the header name and page title. |
-| description | The description of the author. This is used for the header under the author. |
-| primaryColor | The primary color of the blog. |
-| showHeaderImage | Flag to show the header image or not. |
-| showShareButtons  | Flag to show social media share buttons on each blog post or not. |
-| postsPerPage | The number of posts per page on the blog homepage. This is used for pagination. |
-| social | Social media profiles of the blog author. Currently only personal website, GitHub, Twitter, and LinkedIn are supported.|
+### Analyzing the Bundle Size
 
-#### Changing the main header image
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-To change the default header image, simply override the ```main.jpg``` file in the ```/src``` folder.
+### Making a Progressive Web App
 
-#### Changing the favicon
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-To change the default favicon, simply override the ```favicon.ico``` file in the ```/src``` folder.
+### Advanced Configuration
 
-## Creating New Posts
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-All blog posts can be found in ```/src/pages``` and are statically built once the ```gatsby build``` command is run. To create a new post, simply create a new folder in ```/src/pages``` with the name of the url you'd like to have. For example, if you wish to have the url appear as ```myblog.com/hello-world``` you would create the folder as ```hello-world```. Once the folder is created, simply create an ```index.md``` file within it.
+### Deployment
 
-The top of the pages must all contain the same markdown which tells Gatsby the needed information about the specific post. The basic template is:
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-```markdown
----
-title: New Beginnings
-date: "2018-07-01"
-featuredImage: './featured.jpg'
----
+### `yarn build` fails to minify
 
-This top portion is the beginning of the post and will show up as the excerpt on the homepage.
-
-<!-- end -->
-```
-
-In the above code snippet all that is required is the **title** and the **date**. The featured image is optional and can be added by simply adding an image to the page folder you just created and referencing like the above example. The excerpt portion is optional as well and if you do not use the ```<!-- end -->``` marker, the first bit of the post will be used as the excerpt automatically.
-
-This template ships with 3 blog post examples which contain everything from code snippet usage, inserting images, using featured images and excerpts, and more.
-
-## Deploying
-
-Once you are ready to deploy the blog and make it live, you have a couple of options available to you.
-
-### Manual Deploy
-
-Manually deploying the blog simply requires you run a ```gatsby build``` in order to create a production build. After that, you can use any server you'd normally a React app to, such as a Digital Ocean droplet or an AWS instance. All that is required is some way to serve the static files.
-
-If you are unfamiliar with deploying React applications, there are a number of other options.
-
-### GitHub Pages
-
-In order to deploy to GitHub pages, you need to first set your path prefix in ```gatsby-config.js```. The default is ```pathPrefix: '/devblog'``` however this should be changed to whatever the repo name you chose is. For example, if you have the blog located in ```https://github.com/YOURUSERNAME/myblog``` and want it deployed to ```https://YOURUSERNAME.github.io/myblog``` then you would set the path prefix to ```pathPrefix: '/myblog'```.
-
-Next, simply run ```npm run deploy``` and your blog will be deployed.
-
-Alternatively, if you wish to deploy it to ```https://YOURUSERNAME.github.io``` (i.e. your user / organization site and not a project site), then a couple addition changes are required. The official Gatsby documentation has them outlined well [here](https://YOURUSERNAME.github.io).
-
-### Netlify
-
-One of the easiest methods of deploying the blog would be to use [Netlify](https://www.netlify.com/). To deploy to Netlify, simply click the button below and follow the prompts.
-
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
-
-### Other
-
-The options outlined above are not the only options available to you to deploy the blog. The official Gatsby documentation goes into detail about a number of other options. In order to read more about deployment options, [click here](https://www.gatsbyjs.org/docs/deploy-gatsby).
-
-## Changelog
-
-### 1.0.0
-* Initial release
-
-### 2.0.0
-* Upgrade to Gatsby 2.0.31 (Big thanks to [ttristan](https://github.com/ttristan) for the help)
-* Remove deprecated functions
-
-## License
-
-Licensed under MIT License. See [LICENSE.md](LICENSE.md) for more.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
