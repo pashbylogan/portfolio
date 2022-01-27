@@ -30,9 +30,9 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
-      const serviceId = process.env.EMAIL_SERVICE_ID;
-      const templateId = process.env.EMAIL_TEMPLATE_ID;
-      const userId = process.env.EMAIL_USER_ID;
+      const serviceId = process.env.REACT_APP_EMAIL_SERVICE_ID;
+      const templateId = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
+      const userId = process.env.REACT_APP_EMAIL_USER_ID;
       console.log(serviceId);
       console.log(templateId);
       console.log(userId);
