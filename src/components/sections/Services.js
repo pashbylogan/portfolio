@@ -6,8 +6,8 @@ import Service from "../elements/Service";
 const servicesData = [
   {
     id: 1,
-    icon: "images/service-1.svg",
-    title: "UI/UX design",
+    icon: "images/service-5.svg",
+    title: "Writing",
     content:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
     color: "#6C6CE5",
@@ -16,7 +16,7 @@ const servicesData = [
   {
     id: 2,
     icon: "images/service-2.svg",
-    title: "Web Development",
+    title: "Full-Stack Development",
     content:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
     color: "#F9D74C",
@@ -24,8 +24,8 @@ const servicesData = [
   },
   {
     id: 3,
-    icon: "images/service-3.svg",
-    title: "Photography",
+    icon: "images/service-4.svg",
+    title: "Machine Learning",
     content:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
     color: "#F97B8B",
@@ -37,7 +37,7 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="Services" />
+        <Pagetitle title="Core Proficiencies" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>

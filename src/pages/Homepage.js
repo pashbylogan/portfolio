@@ -52,9 +52,6 @@ function Homepage() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-pricing">
-          <Pricing />
-        </Element>
         <Element name="section-testimoninal">
           <Testimonials />
         </Element>

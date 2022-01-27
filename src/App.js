@@ -20,6 +20,7 @@ function App() {
         <Route path="/" exact>
           <Homepage />
         </Route>
+        /*
         <Route path="/dark" exact>
           <HomepageDark />
         </Route>
@@ -44,6 +45,7 @@ function App() {
         <Route path="/index-3-dark" exact>
           <Homepage3Dark />
         </Route>
+        */
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
       </Switch>
