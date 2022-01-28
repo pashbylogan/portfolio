@@ -8,6 +8,7 @@ const filters = [
     id: 1,
     text: "Everything",
   },
+  /*
   {
     id: 2,
     text: "creative",
@@ -24,16 +25,18 @@ const filters = [
     id: 5,
     text: "branding",
   },
+  */
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
+    title: "Autocut",
+    category: "Senior Project",
     image: "images/works/1.svg",
     popupLink: ["images/works/1.svg"],
   },
+  /*
   {
     id: 2,
     title: "Guest App Walkthrough Screens",
@@ -69,13 +72,15 @@ const allData = [
     image: "images/works/5.svg",
     popupLink: ["images/works/5.svg"],
   },
+  */
   {
     id: 6,
-    title: "Game Store App Concept",
-    category: "design",
+    title: "Fictionary",
+    category: "Hackathon",
     image: "images/works/6.svg",
-    link: "https://dribbble.com",
+    link: "http://fictionary.loganpashby.com",
   },
+  /*
   {
     id: 7,
     title: "Project Managment Illustration",
@@ -125,6 +130,7 @@ const allData = [
     image: "images/works/4.svg",
     popupLink: ["images/works/4.svg"],
   },
+  */
 ];
 
 function Works() {
