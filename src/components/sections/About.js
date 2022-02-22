@@ -1,12 +1,11 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
-import Counter from "../elements/Counter";
+// import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
   name: "Logan",
-  avatarImage: "/images/avatar-2.svg",
   content:
     "I am Logan Pashby, full-stack developer from Seattle, Washington. In addition to we development, I have rich machine learning/data science experience.",
 };
@@ -26,12 +25,13 @@ const progressData = [
   },
   {
     id: 3,
-    title: "Blogging",
+    title: "Writing",
     percantage: 40,
     progressColor: "#6C6CE5",
   },
 ];
 
+/*
 const counterData = [
   {
     id: 1,
@@ -58,6 +58,7 @@ const counterData = [
     icon: "icon-badge",
   },
 ];
+*/
 
 function About() {
   return (
@@ -65,20 +66,18 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-          <div className="col-md-3">
-            <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
-            </div>
-            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-          </div>
-
           <div className="col-md-9 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="https://drive.google.com/file/d/1hYARt8g3bqmXK7iwjZ8SnaPRjCigT2uh/view?usp=sharing" className="btn btn-default" target="_blank">
+                    <a 
+                      href="https://drive.google.com/file/d/1hYARt8g3bqmXK7iwjZ8SnaPRjCigT2uh/view?usp=sharing" 
+                      className="btn btn-default" 
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Download Resume
                     </a>
                   </div>
@@ -101,16 +100,6 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="spacer" data-height="70"></div>
-        <div className="row fix-spacing">
-          {counterData.map((counter) => (
-            <div key={counter.id} className="col-md-3 col-sm-6">
-              <TrackVisibility once>
-                <Counter counterItem={counter} />
-              </TrackVisibility>
-            </div>
-          ))}
         </div>
       </div>
     </section>

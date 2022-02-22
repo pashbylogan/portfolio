@@ -6,28 +6,28 @@ import Service from "../elements/Service";
 const servicesData = [
   {
     id: 1,
-    icon: "images/service-5.svg",
-    title: "Writing",
+    icon: "https://img.icons8.com/office/160/000000/console.png",
+    title: "Full-Stack Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
-    icon: "images/service-2.svg",
-    title: "Full-Stack Development",
+    icon: "https://img.icons8.com/external-soft-fill-juicy-fish/120/000000/external-writing-copywriting-soft-fill-soft-fill-juicy-fish-2.png",
+    title: "Writing",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
-    icon: "images/service-4.svg",
+    icon: "https://img.icons8.com/external-becris-lineal-color-becris/128/000000/external-deep-learning-artificial-intelligence-becris-lineal-color-becris.png",
     title: "Machine Learning",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "",
     color: "#F97B8B",
     contentColor: "light",
   },

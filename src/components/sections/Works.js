@@ -77,7 +77,7 @@ const allData = [
     id: 6,
     title: "Fictionary",
     category: "Hackathon",
-    image: "images/works/6.svg",
+    image: "images/works/fictionary.png",
     link: "http://fictionary.loganpashby.com",
   },
   /*

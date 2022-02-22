@@ -5,48 +5,41 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Bachelor's Degree",
+    years: "2018 - 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Computer science major and math minor with an emphasis in deep learning.",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Full-Stack Developer",
+    years: "2021 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Research Assistant",
+    years: "2019 - 2021",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "",
   },
   {
     id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "Grader for Machine Learning",
+    years: "2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "",
+  },
+  {
+    id: 4,
+    title: "Artemis Connection Inc",
+    years: "2019 - 2020",
+    content:
+      "",
   },
 ];
 

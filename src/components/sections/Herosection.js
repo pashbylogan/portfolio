@@ -24,7 +24,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Logan" className="mb-4" />
+          <img src="images/profile_small.png" alt="Logan" className="mb-4 hero-photo" />
 
           <h1 className="mb-2 mt-0">Logan Pashby</h1>
           <p>
@@ -46,17 +46,17 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://github.com/pashbylogan" target="_blank">
+              <a href="https://github.com/pashbylogan" target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://twitter.com/LoganPashby" target="_blank">
+              <a href="https://twitter.com/LoganPashby" target="_blank" rel="noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/logan-pashby/" target="_blank">
+              <a href="https://www.linkedin.com/in/logan-pashby/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>

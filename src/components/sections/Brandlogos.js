@@ -3,35 +3,43 @@ import React from "react";
 const brandlogoData = [
   {
     id: 1,
-    image: "images/client-1.svg",
+    image: "https://img.icons8.com/color/96/000000/python--v2.png",
   },
   {
     id: 2,
-    image: "images/client-2.svg",
+    image: "https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png",
   },
   {
     id: 3,
-    image: "images/client-3.svg",
+    image: "https://img.icons8.com/color/96/000000/html-5--v1.png"
   },
   {
     id: 4,
-    image: "images/client-4.svg",
+    image: "https://img.icons8.com/color/96/000000/css3.png",
   },
   {
     id: 5,
-    image: "images/client-5.svg",
+    image: "https://img.icons8.com/color/96/000000/angularjs.png",
   },
   {
     id: 6,
-    image: "images/client-6.svg",
+    image: "https://img.icons8.com/ultraviolet/80/000000/react--v2.png",
+  },
+  {
+    id: 9,
+    image: "https://img.icons8.com/color/96/000000/nodejs.png",
   },
   {
     id: 7,
-    image: "images/client-7.svg",
+    image: "https://img.icons8.com/color/96/000000/mysql-logo.png",
+  },
+  {
+    id: 10,
+    image: "https://img.icons8.com/color/96/000000/kubernetes.png",
   },
   {
     id: 8,
-    image: "images/client-8.svg",
+    image: "https://img.icons8.com/fluency/96/000000/docker.png",
   },
 ];
 
