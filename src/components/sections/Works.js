@@ -34,7 +34,8 @@ const allData = [
     title: "Autocut",
     category: "Senior Project",
     image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    tooltip: "Github repo available upon request."
+    // popupLink: ["images/works/1.svg"],
   },
   /*
   {
@@ -79,6 +80,7 @@ const allData = [
     category: "Hackathon",
     image: "images/works/fictionary.png",
     link: "http://fictionary.loganpashby.com",
+    tooltip: "",
   },
   /*
   {

@@ -28,7 +28,6 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Logan Pashby</h1>
           <p>
-            I'm a{" "}
             <Typed
               strings={[
                 "Writer",

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import ReactTooltip from 'react-tooltip';
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link } = portfolio;
+  const { category, title, image, popupLink, link, tooltip } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -39,7 +40,7 @@ function Portfolio({ portfolio }) {
         rel="noreferrer"
       >
         <div className="portfolio-item rounded shadow-dark">
-          <div className="details">
+          <div className="details" data-tip={tooltip}>
             <span className="term text-capitalize">{category}</span>
             <h4 className="title">{title}</h4>
             <span className="more-button">{handleIcon()}</span>
@@ -51,6 +52,7 @@ function Portfolio({ portfolio }) {
         </div>
       </a>
       {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
+      <ReactTooltip />
     </>
   );
 }
