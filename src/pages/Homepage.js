@@ -13,6 +13,7 @@ import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
 function Homepage() {
+  document.body.classList.add("dark");
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const headerToggler = (e) => {

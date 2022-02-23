@@ -7,9 +7,9 @@ const servicesData = [
   {
     id: 1,
     icon: "https://img.icons8.com/office/160/000000/console.png",
-    title: "Full-Stack Development",
+    title: "Development",
     content:
-      "",
+      "As a recently graduated computer science undergrad, Logan is eager to apply his skills to make true impact.",
     color: "#6C6CE5",
     contentColor: "light",
   },
@@ -18,8 +18,8 @@ const servicesData = [
     icon: "https://img.icons8.com/external-soft-fill-juicy-fish/120/000000/external-writing-copywriting-soft-fill-soft-fill-juicy-fish-2.png",
     title: "Writing",
     content:
-      "",
-    color: "#F9D74C",
+      "Logan has started a blog to hone his thinking and open a dialog about topics that matter. Please check it out and share with your friends.",
+    color: "#c49700",
     contentColor: "dark",
   },
   {
@@ -27,7 +27,7 @@ const servicesData = [
     icon: "https://img.icons8.com/external-becris-lineal-color-becris/128/000000/external-deep-learning-artificial-intelligence-becris-lineal-color-becris.png",
     title: "Machine Learning",
     content:
-      "",
+      "Machine learning has been a longstanding interest of Logan. ML has immense power to disrupt almost every industry which is why he's invested so much time to learn about it.",
     color: "#F97B8B",
     contentColor: "light",
   },

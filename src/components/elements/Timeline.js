@@ -2,7 +2,7 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Timeline({ education }) {
-  const { years, title, content } = education;
+  const { years, title, content, company } = education;
   return (
     <ScrollAnimation
       animateIn="fadeInUp"
@@ -11,9 +11,9 @@ function Timeline({ education }) {
     >
       <div className="timeline-container">
         <div className="content">
-          <span className="time">{years}</span>
+          <p className="time">{company} | {years}</p>
           <h3 className="title">{title}</h3>
-          <p>{content}</p>
+          <p>{content.split(";").map((i) => <li>{i}</li>)}</p>
         </div>
       </div>
     </ScrollAnimation>

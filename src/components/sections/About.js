@@ -7,7 +7,7 @@ import Skill from "../elements/Skill";
 const aboutContent = {
   name: "Logan",
   content:
-    "I am Logan Pashby, full-stack developer from Seattle, Washington. In addition to we development, I have rich machine learning/data science experience.",
+    "Logan is from Rice Lake, Wisconsin. He works as a full stack devleoper at Cypris, actionable innovation intelligence for all. He has 3 years of experience as a deep learning research assistant with a focus on energy modeling. In his spare time, Logan is an avid disc golfer, lover of all technology and philosophical podcasts, and is currently rediscovering the power of writing.",
 };
 
 const progressData = [
@@ -15,19 +15,19 @@ const progressData = [
     id: 1,
     title: "Development",
     percantage: 70,
-    progressColor: "#FFD15C",
+    progressColor: "#6C6CE5",
   },
   {
     id: 2,
-    title: "Machine Learning",
-    percantage: 95,
-    progressColor: "#FF4C60",
+    title: "Writing",
+    percantage: 40,
+    progressColor: "#c49700",
   },
   {
     id: 3,
-    title: "Writing",
-    percantage: 40,
-    progressColor: "#6C6CE5",
+    title: "Machine Learning",
+    percantage: 95,
+    progressColor: "#FF4C60",
   },
 ];
 
@@ -66,7 +66,7 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-          <div className="col-md-9 triangle-left-md triangle-top-sm">
+          <div className="col-md-10 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
