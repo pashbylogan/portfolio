@@ -7,7 +7,7 @@ import Skill from "../elements/Skill";
 const aboutContent = {
   name: "Logan",
   content:
-    "Logan is from Rice Lake, Wisconsin. He works as a full stack devleoper at Cypris, actionable innovation intelligence for all. He has 3 years of experience as a deep learning research assistant with a focus on energy modeling. In his spare time, Logan is an avid disc golfer, lover of all technology and philosophical podcasts, and is currently rediscovering the power of writing.",
+    "Logan is from Rice Lake, Wisconsin. He works as a full-stack developer at Cypris, actionable innovation intelligence for all. He has 3 years of experience as a deep learning research assistant with a focus on energy modeling. In his spare time, Logan plays french horn in an orchestra, loves listening to technology and philosophical podcasts, and is currently rediscovering how writing can improve his professional and personal development.",
 };
 
 const progressData = [
