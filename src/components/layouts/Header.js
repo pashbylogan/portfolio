@@ -97,15 +97,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               </Link>
             </li>
             <li>
-              <Link
-                activeClass="active"
-                to="section-blogs"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-note"></i>Blog
-              </Link>
+              <a href="https://blog.loganpashby.com"><i className="icon-note"></i>Blog</a>
             </li>
             <li>
               <Link

@@ -3,7 +3,6 @@ import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import About from "../components/sections/About";
-import Blogs from "../components/sections/Blogs";
 import Brandlogos from "../components/sections/Brandlogos";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
@@ -57,9 +56,6 @@ function Homepage() {
         </Element>
         <Element name="section-brandlogos">
           <Brandlogos />
-        </Element>
-        <Element name="section-blogs">
-          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />
