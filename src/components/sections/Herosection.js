@@ -24,7 +24,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/profile_small.png" alt="Logan Pashby" className="mb-4" />
+          <img src="images/new_profile.jpg" alt="Logan Pashby" className="mb-4 circle" />
 
           <h1 className="mb-2 mt-0">Logan Pashby</h1>
           <p>
