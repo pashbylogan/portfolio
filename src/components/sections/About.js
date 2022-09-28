@@ -73,7 +73,7 @@ function About() {
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
                     <a 
-                      href="https://drive.google.com/file/d/1hYARt8g3bqmXK7iwjZ8SnaPRjCigT2uh/view?usp=sharing" 
+                      href="https://drive.google.com/file/d/1kLEh3FjDdTxj_2WPFlDddfO9TrYC8A-w/view?usp=sharing" 
                       className="btn btn-default" 
                       target="_blank"
                       rel="noreferrer"
