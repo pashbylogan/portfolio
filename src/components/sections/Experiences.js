@@ -19,7 +19,7 @@ const experienceData = [
     company: "Cypris Inc",
     years: "2021 - Present",
     content:
-      "Created a new web page that presents novel data insights through various charts and statistics;Wrote custom tooltips for dynamically defining words across the software product",
+      "Developed a large‑scale ETL pipeline to process 4,000,000+ research paper documents and search via Elastic Search;Created a slack bot for automation of tedious tasks, saving CEO 1 hour per week;Hired, trained, and managed an intern through a documentation project surrounding our onboarding and backend services;Added a third‑party endpoint to give users access to news stories and related metrics based on keyword or company queries;Oversaw a distributed, international team of developers across several projects using an agile framework",
   },
   {
     id: 2,
