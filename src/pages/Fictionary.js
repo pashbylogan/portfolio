@@ -9,7 +9,7 @@ function Fictionary() {
 
   const handleSearch = async (input) => {
     setIsLoaded(true);
-    const response = await fetch('http://fictionary.loganpashby.com:5123/word', {
+    const response = await fetch('http://sauron.loganpashby.com:5123/word', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
