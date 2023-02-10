@@ -79,7 +79,7 @@ const allData = [
     title: "Fictionary",
     category: "Hackathon",
     image: "images/works/fictionary.png",
-    link: "http://fictionary.loganpashby.com",
+    link: "/fictionary",
     tooltip: "",
   },
   /*

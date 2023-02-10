@@ -36,7 +36,6 @@ function Portfolio({ portfolio }) {
         href={link ? link : "!#"}
         className="work-image"
         onClick={handleLightbox}
-        target="_blank"
         rel="noreferrer"
       >
         <div className="portfolio-item rounded shadow-dark">
