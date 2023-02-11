@@ -12,6 +12,7 @@ function Fictionary() {
     const response = await fetch('http://sauron.loganpashby.com:5123/word', {
       method: 'POST',
       headers: {
+        'API-KEY': REACT_APP_API_KEY,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ word: input })
