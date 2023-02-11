@@ -9,7 +9,7 @@ function Fictionary() {
 
   const handleSearch = async (input) => {
     setIsLoaded(true);
-    const response = await fetch('http://sauron.loganpashby.com:5123/word', {
+    const response = await fetch('https://sauron.loganpashby.com:5123/word', {
       method: 'POST',
       headers: {
         'API-KEY': process.env.REACT_APP_API_KEY,
