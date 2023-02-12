@@ -5,10 +5,8 @@ function Fictionary() {
   const [searchTerm, setSearchTerm] = useState('');
   const [definition, setDefinition] = useState('');
   const [word, setWord] = useState('');
-  const [isLoaded, setIsLoaded] = useState(false);
 
   const handleSearch = async (input) => {
-    setIsLoaded(true);
     const response = await fetch('https://sauron.loganpashby.com/word', {
       method: 'POST',
       headers: {
@@ -20,7 +18,6 @@ function Fictionary() {
 
     const data = await response.json();
     setDefinition(data.definition);
-    setIsLoaded(false);
   };
 
   const handleKeyDown = (e) => {
