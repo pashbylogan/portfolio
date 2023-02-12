@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import ReactTooltip from 'react-tooltip';
+import { Tooltip as ReactTooltip } from 'react-tooltip';
 
 function Portfolio({ portfolio }) {
   const { category, title, image, popupLink, link, tooltip } = portfolio;
