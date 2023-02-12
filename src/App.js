@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-        <Route path="/fictionary" element={<Fictionary />} />
+        <Route path="/fictionary" component={<Fictionary />} />
       </Routes>
     </BrowserRouter>
   );

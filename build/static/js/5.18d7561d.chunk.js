@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[5],{103:function(t,s,o){"use strict";o.r(s),s.default=o.p+"static/media/things-to-know-about-startup-business.3df71b0b.md"}}]);
+//# sourceMappingURL=5.18d7561d.chunk.js.map

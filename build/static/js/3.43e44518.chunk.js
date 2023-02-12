@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[3],{101:function(t,o,p){"use strict";p.r(o),o.default=p.p+"static/media/best-app-development-tool.ad3bbdcb.md"}}]);
+//# sourceMappingURL=3.43e44518.chunk.js.map
