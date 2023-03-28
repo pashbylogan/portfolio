@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Bloglist from "./pages/Bloglist";
 import BlogDetails from "./pages/BlogDetails";
@@ -8,14 +8,16 @@ import "./App.scss";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div>
-        <Route exact path="/" element={<Homepage />} />
-        <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-        <Route path="/fictionary" element={<Fictionary />} />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/blogs" element={<Bloglist />} />
+          <Route path="/blogs/blog-details/:id/:title" element={<BlogDetails />} />
+          <Route path="/fictionary" element={<Fictionary />} />
+        </Routes>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
