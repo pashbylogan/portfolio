@@ -32,10 +32,26 @@ const allData = [
   {
     id: 1,
     title: "Autocut",
-    category: "Senior Project",
+    category: "school",
     image: "images/works/1.svg",
     tooltip: "Github repo available upon request."
     // popupLink: ["images/works/1.svg"],
+  },
+  {
+    id: 2,
+    title: "Fictionary",
+    category: "fun",
+    image: "images/works/fictionary.png",
+    link: "/fictionary",
+    tooltip: "",
+  },
+  {
+    id: 3,
+    title: "IP Finder",
+    category: "fun",
+    image: "images/works/3.svg",
+    link: "/canyouseeme",
+    tooltip: "",
   },
   /*
   {
@@ -74,22 +90,7 @@ const allData = [
     popupLink: ["images/works/5.svg"],
   },
   */
-  {
-    id: 6,
-    title: "Fictionary",
-    category: "Hackathon",
-    image: "images/works/fictionary.png",
-    link: "/fictionary",
-    tooltip: "",
-  },
   /*
-  {
-    id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
   {
     id: 8,
     title: "Guest App Walkthrough Screens",

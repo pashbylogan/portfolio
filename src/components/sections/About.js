@@ -6,8 +6,9 @@ import Skill from "../elements/Skill";
 
 const aboutContent = {
   name: "Logan",
-  content:
-    "Logan is from Rice Lake, Wisconsin. He works as a full-stack developer at Cypris, actionable innovation intelligence for all. He has 3 years of experience as a deep learning research assistant with a focus on energy modeling. In his spare time, Logan plays french horn in an orchestra, loves listening to technology and philosophical podcasts, and is currently rediscovering how writing can improve his professional and personal development.",
+  content: "I'm Logan, a senior software engineer originally from a charming small town in Wisconsin. I currently work at Cypris, a company dedicated to providing actionable innovation intelligence. With three years of experience as a deep learning research assistant, I have honed my skills in artificial intelligence and enjoy applying them in a professional setting.\n\nThis website serves as a playground for me to share my technical learnings and insights, as well as publish my toy projects that I build for whatever reason. It's a space for me to document my journey in the world of software developmentand AI, and beyond.\n\nOutside of work, I have a diverse range of interests. I play the French horn in a local orchestra, stay informed by listening to technology and philosophical podcasts, and recently started exploring how writing can enhance both my personal and professional development.\n\nMy diverse skill set, passion for learning, and commitment to growth make me an ideal candidate for any dynamic development team.".split('\n').map((line, index) => (
+    <p key={index}>{line}</p>
+  )),
 };
 
 const progressData = [
