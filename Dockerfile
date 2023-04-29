@@ -26,7 +26,7 @@ RUN npm ci
 
 COPY public/ public
 COPY src/ src
-RUN --mount=type=secret,id=_env,dst=/etc/secrets/.env cat /etc/secrets/.env npm run build
+RUN npm run build
 
 # Create production environment
 FROM nginx:alpine as production
