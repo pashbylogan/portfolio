@@ -97,7 +97,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               </Link>
             </li>
             <li>
-              <a href="https://blog.loganpashby.com"><i className="icon-note"></i>Blog</a>
+              <a href="/blog"><i className="icon-note"></i>Blog</a>
             </li>
             <li>
               <Link

@@ -1,13 +1,14 @@
 import React from "react";
 
-const BardIframe = () => {
+const Iframe = ({ url, title }) => {
   return (
     <iframe
-      src="https://dokku.com/docs/deployment/application-deployment/"
+      src={url}
+      title={title}
       style={{ position: 'absolute', height: '100%', width: '100%' }}
       frameBorder="0"
     />
   );
 };
 
-export default BardIframe;
+export default Iframe;
