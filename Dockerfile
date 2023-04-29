@@ -1,13 +1,8 @@
+# syntax = docker/dockerfile:1.2
+
 FROM node:latest AS build
 ENV NODE_ENV production
 WORKDIR /app
-
-# Set environment variables
-ENV NODE_OPTIONS=$NODE_OPTIONS
-ENV REACT_APP_API_KEY=$REACT_APP_API_KEY
-ENV REACT_APP_EMAIL_SERVICE_ID=$REACT_APP_EMAIL_SERVICE_ID
-ENV REACT_APP_EMAIL_TEMPLATE_ID=$REACT_APP_EMAIL_TEMPLATE_ID
-ENV REACT_APP_EMAIL_USER_ID=$REACT_APP_EMAIL_USER_ID
 
 COPY package.json package.json
 COPY package-lock.json package-lock.json
@@ -15,7 +10,7 @@ RUN npm ci
 
 COPY public/ public
 COPY src/ src
-RUN npm run build
+RUN --mount=type=secret,id=_env,dst=/etc/secrets/.env cat /etc/secrets/.env npm run build
 
 # Create production environment
 FROM nginx:alpine as production
