@@ -1,5 +1,3 @@
-# syntax = docker/dockerfile:1.2
-
 FROM node:latest AS build
 ENV NODE_ENV production
 WORKDIR /app
