@@ -17,7 +17,7 @@
     "react-dom": "^16.14.0",
     "react-on-screen": "^2.1.1",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "4.0.3",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "react-tooltip": "^5.7.5",
