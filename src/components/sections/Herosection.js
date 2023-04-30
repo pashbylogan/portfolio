@@ -28,14 +28,16 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Logan Pashby</h1>
           <p>
+            {" "}
             <Typed
               strings={[
+                "",
                 "Writer",
                 "Machine Learning Engineer",
                 "Full-Stack Developer",
               ]}
               typeSpeed={80}
-              backSpeed={40}
+              backSpeed={50}
               attr="value"
               loop
             >
