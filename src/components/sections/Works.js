@@ -33,7 +33,8 @@ const allData = [
     id: 1,
     title: "Autocut",
     category: "school",
-    image: "images/works/1.svg",
+    image: "images/works/label_studio.png",
+    link: "https://blog.loganpashby.com//a-senior-project-designed-for-teachers-and-professors",
     tooltip: "Github repo available upon request."
     // popupLink: ["images/works/1.svg"],
   },
