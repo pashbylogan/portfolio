@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/fictionary" element={<Fictionary />} />
           <Route path="/canyouseeme" element={<IpFinder />} />
-          <Route path="/docs" element={<Iframe url="https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-cloudflare/" title="MkDocs" />} />
+          <Route path="/docs" element={<Iframe url="https://jellobot-docs.pages.dev/" title="MkDocs" />} />
           <Route path="/blog" element={<Bloglist />} />
         </Routes>
       </div>
