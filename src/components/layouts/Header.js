@@ -56,6 +56,20 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               </Link>
             </li>
             <li>
+              <a href="/blog"><i className="icon-note"></i>Blog</a>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-works"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-layers"></i>Projects
+              </Link>
+            </li>
+            <li>
               <Link
                 activeClass="active"
                 to="section-services"
@@ -76,20 +90,6 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-graduation"></i>Experience
               </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-works"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-layers"></i>Projects
-              </Link>
-            </li>
-            <li>
-              <a href="/blog"><i className="icon-note"></i>Blog</a>
             </li>
             <li>
               <Link

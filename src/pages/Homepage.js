@@ -43,23 +43,23 @@ function Homepage() {
         <Element name="section-about">
           <About />
         </Element>
+        <Element name="section-blogs">
+          <Blogs />
+        </Element>
+        <Element name="section-works">
+          <Works />
+        </Element>
         <Element name="section-services">
           <Services />
         </Element>
         <Element name="section-experiences">
           <Experiences />
         </Element>
-        <Element name="section-works">
-          <Works />
-        </Element>
-        <Element name="section-testimoninal">
-          <Testimonials />
-        </Element>
         <Element name="section-brandlogos">
           <Brandlogos />
         </Element>
-        <Element name="section-blogs">
-          <Blogs />
+        <Element name="section-testimoninal">
+          <Testimonials />
         </Element>
         <Element name="section-contact">
           <Contact />
