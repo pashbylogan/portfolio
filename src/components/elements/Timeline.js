@@ -13,7 +13,7 @@ function Timeline({ education }) {
         <div className="content">
           <p className="time">{company} | {years}</p>
           <h3 className="title">{title}</h3>
-          <p>{content.split(";").map((i) => <li>{i}</li>)}</p>
+          <p>{content.split(";").map((i, index) => <li key={index}>{i}</li>)}</p>
         </div>
       </div>
     </ScrollAnimation>

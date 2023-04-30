@@ -4,7 +4,7 @@ import Homepage from "./pages/Homepage";
 import Fictionary from "./pages/Fictionary";
 import IpFinder from "./pages/IpFinder";
 import Iframe from "./pages/iframe";
-import HashnodePosts from "./pages/Blog";
+import Bloglist from "./pages/Bloglist";
 import "./App.scss";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/fictionary" element={<Fictionary />} />
           <Route path="/canyouseeme" element={<IpFinder />} />
           <Route path="/docs" element={<Iframe url="https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-cloudflare/" title="MkDocs" />} />
-          <Route path="/blog" element={<HashnodePosts username="pashbyl" />} />
+          <Route path="/blog" element={<Bloglist />} />
         </Routes>
       </div>
     </Router>

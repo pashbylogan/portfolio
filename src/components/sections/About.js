@@ -71,7 +71,7 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
-                  <p>{aboutContent.content}</p>
+                  <div>{aboutContent.content}</div>
                   <div className="mt-3">
                     <a 
                       href="https://drive.google.com/file/d/1kLEh3FjDdTxj_2WPFlDddfO9TrYC8A-w/view?usp=sharing" 

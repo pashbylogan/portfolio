@@ -10,6 +10,7 @@ import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
+import Blogs from "../components/sections/Blogs";
 
 function Homepage() {
   document.body.classList.add("dark");
@@ -56,6 +57,9 @@ function Homepage() {
         </Element>
         <Element name="section-brandlogos">
           <Brandlogos />
+        </Element>
+        <Element name="section-blogs">
+          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />
