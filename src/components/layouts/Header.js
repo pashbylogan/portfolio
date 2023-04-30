@@ -42,15 +42,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         <nav>
           <ul className="vertical-menu scrollspy">
             <li>
-              <Link
-                activeClass="active"
-                to="section-home"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-home"></i>Home
-              </Link>
+              <a href="/"><i className="icon-home"></i>Home</a>
             </li>
             <li>
               <Link

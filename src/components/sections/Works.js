@@ -8,15 +8,15 @@ const filters = [
     id: 1,
     text: "Everything",
   },
-  /*
   {
     id: 2,
-    text: "creative",
+    text: "fun",
   },
   {
     id: 3,
-    text: "art",
+    text: "school",
   },
+  /*
   {
     id: 4,
     text: "design",
@@ -42,7 +42,7 @@ const allData = [
     title: "Fictionary",
     category: "fun",
     image: "images/works/fictionary.png",
-    link: "/fictionary",
+    link: "https://blog.loganpashby.com//winning-hackathon-project-creating-fictionary-a-web-app-that-generates-fictitious-definitions",
     tooltip: "",
   },
   {

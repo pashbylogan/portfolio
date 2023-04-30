@@ -41,6 +41,22 @@ const brandlogoData = [
     id: 8,
     image: "https://img.icons8.com/fluency/96/000000/docker.png",
   },
+  {
+    id: 11,
+    image: "https://img.icons8.com/color/96/null/postgreesql.png",
+  },
+  {
+    id: 12,
+    image: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/null/external-elasticsearch-a-search-engine-based-on-the-lucene-library-logo-shadow-tal-revivo.png",
+  },
+  {
+    id: 13,
+    image: "https://img.icons8.com/color/96/000000/mongodb.png",
+  },
+  {
+    id: 13,
+    image: "https://img.icons8.com/fluency/96/null/google-cloud.png",
+  },
 ];
 
 function Brandlogos() {

@@ -9,7 +9,7 @@ const servicesData = [
     icon: "https://img.icons8.com/office/160/000000/console.png",
     title: "Development",
     content:
-      "As a recently graduated computer science undergrad, Logan is eager to apply his skills to make true impact.",
+      "I have an unwavering zeal for programming so constantly seeking opportunities to explore and experiment with cutting-edge technologies.",
     color: "#6C6CE5",
     contentColor: "light",
   },
@@ -18,7 +18,7 @@ const servicesData = [
     icon: "https://img.icons8.com/external-soft-fill-juicy-fish/120/000000/external-writing-copywriting-soft-fill-soft-fill-juicy-fish-2.png",
     title: "Writing",
     content:
-      "Logan has started a blog to hone his thinking and open a dialog about topics that matter. Please check it out and share with your friends.",
+      "With great enthusiasm, I've launched a blog to sharpen my thoughts and engage in meaningful discussions about important topics. I invite you to explore it and share it with your friends!",
     color: "#c49700",
     contentColor: "dark",
   },
@@ -27,7 +27,7 @@ const servicesData = [
     icon: "https://img.icons8.com/external-becris-lineal-color-becris/128/000000/external-deep-learning-artificial-intelligence-becris-lineal-color-becris.png",
     title: "Machine Learning",
     content:
-      "Machine learning has been a longstanding interest of Logan. ML has immense power to disrupt almost every industry which is why he's invested so much time to learn about it.",
+      " I've dedicated significant time and effort to delve deep into the fascinating world of ML, eager to harness its capabilities and contribute to groundbreaking advancements.",
     color: "#F97B8B",
     contentColor: "light",
   },
@@ -47,7 +47,7 @@ function Services() {
         </div>
         <div className="mt-5 text-center">
           <p className="mb-0">
-            Looking for a custom job?{" "}
+            Have an idea?{" "}
             <Link
               className="colorpink pointer"
               to="section-contact"
