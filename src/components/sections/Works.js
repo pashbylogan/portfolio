@@ -48,6 +48,13 @@ const allData = [
   },
   {
     id: 3,
+    title: "Jellobot",
+    category: "fun",
+    image: "https://img.icons8.com/3d-fluency/375/null/discord-logo.png",
+    link: "/docs",
+  },
+  {
+    id: 4,
     title: "IP Finder",
     category: "fun",
     image: "images/works/3.svg",
@@ -55,17 +62,6 @@ const allData = [
     tooltip: "",
   },
   /*
-  {
-    id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
-    ],
-  },
   {
     id: 3,
     title: "Delivery App Wireframe",
@@ -139,7 +135,7 @@ const allData = [
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
+  const [dataVisibleCount, setDataVisibleCount] = useState(3);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -147,7 +143,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 3));
   }, [getAllItems]);
 
   const handleChange = (e) => {
