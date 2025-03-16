@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "vulf_mono_italic";
+  src: url("https://static.wixstatic.com/ufonts/be29d0_ba994a69a1fa4f989c8a0064c8888067/woff2/file.woff2") format("woff2"),
+       url("https://static.wixstatic.com/ufonts/be29d0_ba994a69a1fa4f989c8a0064c8888067/woff/file.woff") format("woff"),
+       url("https://static.wixstatic.com/ufonts/be29d0_ba994a69a1fa4f989c8a0064c8888067/ttf/file.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faebd7;
+  color: #000;
+  font-family: "vulf_mono_italic", monospace;
+  font-size: 12px;
+  line-height: 1.4em;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 41ch;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.line-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.divider {
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+a {
+  color: #CE2029;
+  text-decoration: underline;
+}
